@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+			 <div class="container">
+				<input type="text" class="display" />
+
+				<div class="buttons">
+				<button class="operator" onclick="clearScreen()">AC</button>
+				<button class="operator" onclick="delScreen()">DEL</button>		
+				<button class="operator" onclick="setNumber('%')">%</button>	
+				<button class="operator" onclick="setNumber('/')">/</button>	
+
+				<button onclick="setNumber('7')">7</button>	
+				<button onclick="setNumber('8')">8</button>	
+				<button onclick="setNumber('9')">9</button>	
+				<button class="operator" onclick="setNumber('*')">*</button>	
+
+				<button onclick="setNumber('4')">4</button>
+				<button onclick="setNumber('5')">5</button>	
+				<button onclick="setNumber('6')">6</button>	
+				<button class="operator" onclick="setNumber('-')">-</button>	
+
+				<button onclick="setNumber('1')">1</button>	
+				<button onclick="setNumber('2')">2</button>	
+				<button onclick="setNumber('3')">3</button>	
+				<button class="operator" onclick="setNumber('+')">+</button>	
+
+				<button  onclick="setNumber('0')">0</button>	
+				<button  onclick="setNumber('00')">00</button>	
+				<button onclick="setNumber('.')">.</button>	
+				<button class="operator" onclick="result()">=</button>	
+				</div>
+			</div>
+			<script src="app.js"></script>			
+</body>
+</html>
